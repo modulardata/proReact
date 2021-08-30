@@ -1,0 +1,33 @@
+# Editor configuration, see http://editorconfig.org
+root = true[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+# npm install eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged eslint-plugin-compat eslint-plugin-cypress --save-dev
+
+# yarn add eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged eslint-plugin-compat eslint-plugin-cypress --dev
+
+# Add the Husky 🐶
+
+# Husky can prevent bad git commit, git push and more 🐶 woof!
+
+# "husky": {
+#     "hooks": {
+#       "pre-commit": "lint-staged"
+#     }
+# },
+# Run linters against staged git files and don’t let 💩 slip into your code base!
+
+# "lint-staged": {
+#     "src/**/*.{js,jsx,json}": [
+#       "npm run format",
+#       "npm run lint:fix"
+#     ]
+#   }
+# },
